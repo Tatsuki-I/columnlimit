@@ -10,7 +10,5 @@ function! ColumnLimit(clenable)
   endif
 endfunction
 
-call ColumnLimit(clenable)
-
 command! CLEnable call ColumnLimit(1)
 command! CLDisable call ColumnLimit(0)
